@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <title>To deliver you from the Preliminary Terrors | Calculus Made Easy</title>
+   <link rel="stylesheet" href="https://calculusmadeeasy.org/screen.css">
+   <style>
+      body{counter-reset:h1 4}
+   </style>
+   <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+   </script>
+   <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+  
+   <p class="a rotatedFloralHeartBullet">
+   </p>
+
+   <p>
+   <h1>Repères dans l'espace</h1>
+   <h2>Approche intuitive</h2>
+   Il permet de situer des points dans le volume. Le plan vu jusque-là est un espace à deux dimensions. Pour donner la position d'un élément du plan, deux coordonnées suffisent. Dans l'espace, ou le volume tel qu'on le connait, il faut trois coordonnées pour donner la position de tous les éléments qui le composent. Comme montré dans le dessin suivant, où est représenté un point de l'espace avec ses coordonnées cartésiennes : 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/d2-repere3D.png?raw=true" width=50%>  </p>
+
+   <p>
+ 
+   De la même manière que dans le plan il est possible de se repérer, d'avoir sa position où que l'on se trouve, ou plutôt quel que soit le point que l'on cherche à identifier, il faut des coordonnées pour localiser ce point. Dans l'espace, trois coordonnées sont nécessaires pour déterminer la position d'un point uniquement. Comme cela est représenté dans le dessin au-dessus.   </p>
+
+   <p>
+ 
+   <h2>Exemple pratique</h2>
+   Imaginons un cube (et dessinons-le) : 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/d9-cube1.png?raw=true" width=50%>
+   En général, on nomme un volume par ses sommets : $ABCDEFGH$. Par nature, chacune de ses arrêtes est de même longueur. Posons ici $1$.<br/>
+   Prolongeons les arrêtes $AB$, $AD$ et $AF$ et donnons-leur un sens : depuis $A$ vers chaque point. On obtient donc ceci : 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/d9-cube2.png?raw=true" width=50%>  </p>
+
+   <p>
+ 
+   A partir de ces trois droites, on peut définir un repère direct, qui a le luxe d'être orthonormé.<br/>
+   Considérons les vecteurs $\overrightarrow{AB}$, $\overrightarrow{AD}$ et $\overrightarrow{AF}$. Dans cet ordre (raison : voir ce qu'est un repère direct).  </p>
+
+   <p>
+ 
+   On peut définir à partir de ces trois vecteur le repère : 
+   \begin{eqnarray}
+   (A;\overrightarrow{AB};\overrightarrow{AD};\overrightarrow{AF})
+   \end{eqnarray}
+   Considérant ce repère, il est possible de donner les coordonnées de chacun des points du cube, ainsi que ceux rajouté sur le dessin ci-dessous. On considère les points $I_{BC}$, $I_{DE}$ et $I_{FG}$ comme les milieux des segments respectifs. 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/d9-cube3.png?raw=true" width=50%>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+      Réponse : 
+      On prend A comme origine du repère pour donner les coordonnées de chaque point, soit grâce à un triplet de coordonnées, soit grace à une combinaison des vecteurs du repère. 
+      \begin{align}
+      & A = (0;0;0) &&                 \text{soit: }\overrightarrow{AA} =\overrightarrow{0}\\
+      & B = (1;0;0) &&                 \text{soit: }\overrightarrow{AB} =     1.\overrightarrow{AB}   \\
+      & C = (1;0;1) &&                 \text{soit: }\overrightarrow{AC} =     1.\overrightarrow{AB} + 1.\overrightarrow{AD}      \\
+      & D = (0;0;1) &&                 \text{soit: }\overrightarrow{AD} =  \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,1.\overrightarrow{AD} \\
+      & E = (0;1;1) &&                 \text{soit: }\overrightarrow{AE} =  \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,1.\overrightarrow{AD} + 1.\overrightarrow{AF} \\
+      & F = (0;1;0) &&                 \text{soit: }\overrightarrow{AF} =\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,1.\overrightarrow{AF} \\
+      & G = (1;1;0) &&                 \text{soit: }\overrightarrow{AG} =     1.\overrightarrow{AB} +\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,1.\overrightarrow{AF}  \\
+      & H = (1;1;1) &&                 \text{soit: }\overrightarrow{AH} =     1.\overrightarrow{AB} + 1.\overrightarrow{AD} + 1.\overrightarrow{AF}   \\
+      & I_{BC} = (1;0;\dfrac{1}{2}) &&          \text{soit: }\overrightarrow{AI_{BC}} = 1.\overrightarrow{AB} +\dfrac{1}{2}.\overrightarrow{AD}\\
+      & I_{DE} = (0;\dfrac{1}{2};1) &&          \text{soit: }\overrightarrow{AI_{DE}} =  \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\dfrac{1}{2}.\overrightarrow{AD} +\dfrac{1}{2}.\overrightarrow{AF}\\
+      & I_{FG} = (\dfrac{1}{2};1;0) &&          \text{soit: }\overrightarrow{AI_{FG}} =\dfrac{1}{2}.\overrightarrow{AB} +\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, 1.\overrightarrow{AF}\\
+      \end{align}
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+      Dans cet exercice / exemple, un élément est mis en exergue mais peut très bien être omis : le facteur $1$ devant les vecteurs comme par exemple $\overrightarrow{AB} =     1.\overrightarrow{AB}$. Écrire  $\overrightarrow{AB} =\overrightarrow{AB}$ n'est pas très explicite dans le contexte. Dans l'exercice, pour rejoindre le point B, depuis A, une fois le vecteur $\overrightarrow{AB}$ permet de tomber exactement sur le point $B$. Etc. Aussi trivial est cette vision 
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+      <strong>Autre exercice d'application</strong><br/>
+      Basé sur le cube ci-dessus :
+      Donner une combinaison de vecteurs pour passer d'un point à un autre en n'utilisant uniquement les vecteurs du repère $ (A;\overrightarrow{AB};\overrightarrow{AD};\overrightarrow{AF})$. 
+      Par exemple, pour aller du point $B$ au point $F$ : 
+      On applique au point $B$ une fois le vecteur $\overrightarrow{AF}$, ce qui permet d'arriver sur le point $G$.
+      Puis partant de $G$ on applique moins une fois le vecteur $\overrightarrow{AB}$ et on arrive sur le point $F$.<br/>
+      Écrire de même pour le chemin menant de : 
+   <ul>
+      <li> de $G$ vers $E$;</li>
+      <li> de $A$ vers $H$.</li>
+   </ul>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+      <strong>Réponse :</strong> 
+      De $G$ vers $E$ : 
+   <ul>
+      <li> par décomposition du vecteur  $\overrightarrow{GE}$ sur $F$</li>
+      <li> et comme $\overrightarrow{GF} =\overrightarrow{AB}$ et $\overrightarrow{FE} =\overrightarrow{AC}$ alors on peut écrire :</li>
+   </ul>
+   \begin{align}
+   \overrightarrow{GE}  & =\overrightarrow{GF} +\overrightarrow{FE} \\
+   & =\overrightarrow{AB} +\overrightarrow{AD}
+   \end{align}
+   De $A$ vers $H$ : 
+   <ul>
+      <li> par décomposition du vecteur  $\overrightarrow{AH} \text{ sur } D$ et le point $C$, </li>
+      <li> et comme $\overrightarrow{GF} =\overrightarrow{AB}$ et $\overrightarrow{FE} =\overrightarrow{AC}$ alors on peut écrire :  </li>
+   </ul>
+   \begin{align*}
+   \overrightarrow{AH}  &=\overrightarrow{AD} +\overrightarrow{DC}+\overrightarrow{CA} \\
+   & =\overrightarrow{AB} +\overrightarrow{AF} +\overrightarrow{AD}
+   \end{align*}
+   On aurait tout à fait pu opérer une autre décomposition du vecteur $\overrightarrow{AH}$ sur les points $B$ et $G$ par exemple.<br/>
+   Les vecteurs sont des objets mathématiques parfaitement naturels à employer dans ces repères. Pour un rappel sur eux, voir dans la section éponyme dans le chapitre "Extensions mathématiques"\ref{duvadp}. 
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+      <h2>Théorie</h2>
+      <h3>Présentation</h3>
+   Cette section plus théorique formalise un peu plus rigoureusement les éléments présentés jusque là. Dans l'espace, à trois dimensions, nous définissons un repère ayant une origine et trois vecteurs. On appelle ces trois vecteur la base de cet espace.<br/>
+   <h3>Formalisation</h3>
+   Jusque là, pour se repérer dans le volume (abusivement appelé espace, car laissant supposer que l'espace n'a que trois dimensions, alors qu'en maths un espace peut avoir autant de dimension que l'on veut ) nous avons utilisé le système de coordonnées cartésien, où chaque point est définit à l'aide de trois coordonnées, l'abscisse, l'ordonnée et la cote. Dans ce schéma pour un repère dans l'espace, on définit un point $M$ à l'aide de ses trois coordonnées : 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/d2-repere3D.png?raw=true" width=50%>
+   Alors on exprime les coordonnées de $M$ dans ce repère par :
+   \begin{eqnarray}
+   M = (x_{M};y_{M};z_{M})\text{ dans } (O;\vec{i};\vec{j};\vec{k})
+   \end{eqnarray}
+   Où $x_{M}$, $x_{M}$ et $x_{M}$ sont des nombres quelconques.
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+     Un autre exemple avec cette représentation, où on peut lire que le point $M$ a pour coordonnées $(2;1;2)$. 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/RepereMaths20200922-3Dexemple.png?raw=true" width=50%>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+   <br>
+   <hr>
+   <a href="chapitre-5-les-coordonnees-cylindriques.html">Page suivante &rarr;</a><br>
+   <a href="index.html">Index &uarr;</a><br>
+   
+   <script src="j/jquery.js"></script>
+   <script src="j/modernizr.js"></script>
+   <script src="j/dih5.js"></script>
+
+</body>
+</html>
