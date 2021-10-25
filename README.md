@@ -8,10 +8,11 @@ Ce cours est open source dnas le sens, ou tout le monde peut me déposer un tick
 
 # Sujets traités ici
 ## Les repères dans le plan et l'espace
-## Les repères cartésiens
-## Les coordonées polaires
-## Les cordonnées polaires
-## Les coordonnées cylindriques
+### Les coordonnées cartésiennes sur une droite, dans le plan et dans l'espace
+### Expression vectorielle des coordonnées
+## Les repères cartésiens : pour tout localiser
+## Les coordonées polaires : un autre système de coordonnées 
+## Les coordonnées cylindriques : ou l'extension des coordonnées polaires à l'espace
 ## Les coordonnées sphériques
 ## Les vecteurs
 ## Différents outils
