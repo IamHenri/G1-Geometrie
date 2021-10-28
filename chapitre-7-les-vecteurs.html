@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <title>Mathématiques | Géométrie analytique | Repères, vecteurs et outils de mesure</title>
+   <link rel="stylesheet" href="https://calculusmadeeasy.org/screen.css">
+   <style>
+      body{counter-reset:h1 7}
+   </style>
+   <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+   </script>
+   <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+  
+   <p class="a rotatedFloralHeartBullet">
+
+   <p>
+   <h1>Les vecteurs</h1>
+   <h2>Dans le plan</h2>
+   On se place dans  le plan $\mathbb{R}^{2}$, muni d'un repère orthonormal $(O,<br/>vec{i}:\vec{j})$. Dasn ce cadre nous allons définir différents éléments comme les vecteurs, les droites, la projection sur des droites quelconques du plan. 
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+   <h3>
+   Premières définition</h3>
+   Un vecteur est un élément du plan définit par quatre éléments : 
+   <ul>
+      <li> son origine ; </li>
+      <li> sa direction ; </li>
+      <li> son sens ; </li>
+      <li> sa norme.  </li>
+   </ul>
+   Voir représentation ci dessous : 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/v01.png?raw=true" width=30%>
+   Avec un repère pour permettre de disposer des coordonnées du vecteurs
+   
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/v02.png?raw=true" width=30%>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+   <h3>   Définitions d'un vecteur à l'aide de deux points</h3>
+   Comme dans le schéma précédent, les points $A$ et $B$ et définissent le vecteur $\overrightarrow{AB}$, où $A$ est l'origine du vecteur, la droite $(AB)$ est la direction du vecteur, son sens est donné par la lecture du vecteur : de $A$ vers $B$ et sa norme est la longueur $AB$, notée $||\overrightarrow{AB}||$.<br/>
+   On a les coordonnées des points $A$ et $B$ dans le repère : 
+   
+   \begin{equation}
+   A =   \left(\begin{array}{lll}
+   x_{A}\\
+   y_{A}\\
+   \end{array}\right)\\  
+   B =
+   \left(\begin{array}{lll}
+   x_{B} \\
+   y_{B} \\
+   \end{array}\right)
+   \end{equation}
+
+   
+   Alors le vecteur $\overrightarrow{AB}$ est donné par : 
+   \begin{displaymath}
+   \overrightarrow{AB} =
+   \left(<br/>begin{array}{ccc}
+   x_{B} - x_{A} <br/>
+   y_{B} -	y_{A} <br/>
+   \end{array}<br/>right)
+   \end{displaymath}
+   Par exemple : 
+   \begin{displaymath}
+   A =
+   \left(<br/>begin{array}{ccc}
+   3 <br/>
+   5<br/>
+   \end{array}<br/>right)<br/>text{ et }  
+   B =
+   \left(<br/>begin{array}{ccc}
+   -2 <br/>
+   3 <br/>
+   \end{array}<br/>right)
+   \end{displaymath}
+   Donc  : 
+   \begin{displaymath}
+   \overrightarrow{AB} =
+   \left(<br/>begin{array}{ccc}
+   -2 - 3 <br/>
+   3-5 <br/>
+   \end{array}<br/>right)=
+   \left(<br/>begin{array}{ccc}
+   -5<br/>
+   -2 <br/>
+   \end{array}<br/>right)
+   \end{displaymath}
+   
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/vectex01.png?raw=true" width=75%>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+   <h3>
+   Définitions d'un vecteur par ses coordonnées</h3>
+   Nous venons de construire un vecteur à partir de deux points. Cette méthode peut être appliquée quelque soient les points du plans, du moment qu'ils sont distincts. Sinon cela donne le vecteur nul. Cette construction permet d'obtenir de nouvelles coordonnées, à partir de celles des deux points. Ces coordonnées sont celle du vecteur. Pour représenter un vecteur dans le plan à l'aide de ses coordonnées telles que celles obtenues pour $\overrightarrow{AB}$, on place toujours son origine sur celle du repère, comme représenté ci-dessus. 
+   
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/vectex01.png?raw=true" width=75%>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+   <h2>Dans l'espace</h2>
+   On se place maintenant dans $\mathbb{R}^{3}$, muni d'un repère orthonormal $(O,<br/>vec{i};\vec{j};\vec{k})$. Dans  ce cadre nous pouvons définir ces même éléments comme les vecteurs, les droites, la projection sur des droites quelconques du plan et maintenant des plans et des volumes! La droite est au plan ce qu'un plan est à l'espace. 
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+   <h2>opérations sur les vecteurs</h2>
+   Que l'on soit dans le plan ou dans l'espace, ou même dans n'importe quel autre espace à $n$ dimensions
+   On peut ajouter et retrancher les vecteurs.<br/>
+   On peut multiplier par un scalaire un vecteur.<br/>
+   On peut multiplier deux vecteurs entre eux: le produit scalaire. On rappelle sa formule dans le plan : 
+   \begin{displaymath}
+   \overrightarrow{U} =
+   \left(<br/>begin{array}{ccc}
+   x_{U} <br/>
+   y_{U}<br/>
+   \end{array}<br/>right);
+   \overrightarrow{V} =
+   \left(<br/>begin{array}{ccc}
+   x_{V} <br/>
+   y_{V}<br/>
+   \end{array}<br/>right);
+   \text{ alors : }
+   \overrightarrow{U}.\overrightarrow{V} = x_{U}.x_{U}+y_{U}.y_{V}
+   \end{displaymath}
+   Dans l'espace:
+   \begin{displaymath}
+   \overrightarrow{U}.\overrightarrow{V} = x_{U}.x_{U}+y_{U}.y_{V}+z_{U}.z_{V}
+   \end{displaymath}
+   Les deux vecteurs ont une troisième composante, la formule s'étend assez naturellement aux dimensions supérieures. 
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+   <h1>Exploitation de ces mod\`eles</h1>
+   <h2>Un outil omniprésent</h2>
+   Les repères sont utilisés comme les lettres dans le langage. Ils permettent de positionner tout élément défini par au moins un point. Les repères s'appliquent dans tous les espaces, même ceux de dimension infinie.<br/>
+   En géométrie différentielle, On utilise la notion de Cartes et d'Atlas, où parmi les éléments qui figurent dans cette théorie, on invoque un point $X$ de coordonnées $X = (x_{1}, ... x_{n})$, avec chaque $x_{i}$ représentant une coordonnée de ce point.<br/>
+   ... plus d'autres exemples\\
+   Les coordonnées des éléments avec lesquels on joue sont quasiment tout le temps exploitées. Ou du moins il est intéressant de les connaître.<br/>
+   Un exemple d'un contexte ou a priori il ne semble pas exister de système de coordonnées donné. La géométrie qui comprend l'étude des quadrilatères classiques: triangles, rectangles, parallélogrammes, pentagones, hexagones, etc.<br/>
+   Quand on étudie un triangle rectangle, si on travaille sur les angles ou les longueurs, a priori pas besoin de repère.<br/>
+   Si effectivement c'est le cas, on peut d'en passer. Comme par exemple dans cet exemple sur le théorème de Pythagore :
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/dExpMod1-pythagore1.png?raw=true" width=75%>
+   Où la question serait de trouver la valeur de AC en appliquant le théorème de Pythagore. La question est vite répondue : AC = 25. Partant de cette réponse et dans ce contexte rien n'empêche de définir un repère et de partir sur d'autres calculs : il peut ainsi être demandé de donner l'équation de la droite symétrique à $(AC)$ par rapport au point $B$, dans le repère construit comme montré dans la figure ci dessous : 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/dExpMod2-pythagore2.png?raw=true" width=75%>
+   L'équation de cette droite symétrique à  $(AC)$  par rapport au point $B$ est : 
+   \begin{align*}
+   &y =<br/>frac{3}{4}.x - 3
+   \end{align*}
+   Voir dans le dessin ci-dessous la représentation de cette droite symétrique à  $(AC)$  par rapport au point $B$
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/dExpMod3-pythagore2.png?raw=true" width=75%>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+   <p>
+   <h2>Définitions</h2>
+   <strong>Origine du repère :</strong><br/>
+   Souvent appelée $O$ - la lettre O - permet d'associer naturellement les coordonnées $(0;0)$ à ce point. Les coordonnées de ce point sont nulles par nature.<br/>
+   <strong>Axe des abscisses :</strong><br/>
+   Dans un repère à deux dimensions, l'axe des abscisses est l'axe horizontal. Lorsqu'on lit les coordonnées d'un point dans le plan, c'est la première de ses coordonnées. Dans un repère tridimensionnel, dans l'espace, cet axe est le premier Axe définissant le repère.<br/>
+   <strong>Axe des ordonnées : </strong><br/>
+   L'axe des ordonnées est l'axe verticale. Lorsqu'on lit les coordonnées d'un point, celle-ci vient en deuxième. 
+   <strong>Point : </strong><br/>
+   Un point, du plan ou de l'espace est donné par ses coordonnées. Dans le plan, ses coordonnées sont l'abscisse et l'ordonnée. Dans cet ordre. En général l'abscisse est l'axe des $x$ et l'odonnée l'axe des $y$.<br/>
+   Dans l'espace, les coordonnées d'un point sont données par son abscisse, son ordonnée et sa hauteur. La hauteur est en général l'axe des $z$. 
+   <strong>Nommer un repère : </strong><br/>
+   Soit R un repère constitué de deux axes sécants orthogonalement dont le point d'intersection est l'origine du repère $O$, de coordonnées $ O = (0;0)$. Ces deux axes sont appelés abscisse et ordonnées, chacun portant une variable: $x$ pour l'axe des abscisse, et $y$ pour celui des ordonnées.<br/>
+   <strong>Repère Orthogonal : </strong><br/> 
+   Un repère orthogonal est un repère qui a ses axes perpendiculaires entre eux.<br/>
+   D'un point de vue plus mathématiques, un repère est orthogonal si le produit scalaire de ses vecteurs unitaires est nul.<br/>
+   En deux dimension, on doit avoir  : 
+   \begin{align}
+   &\vec{i}.\vec{j} = 0 
+   \end{align}
+   En trois  dimension, on doit avoir  : 
+   \begin{align}
+   &\vec{i}.\vec{j} = <br/>vec{j}.\vec{k} = <br/>vec{i}.\vec{k} = 0 .
+   \end{align}
+   <strong>Repère Orthonormal :</strong><br/> 
+   Rapidement : les mesures de chaque axe sont égales. 
+   Détaillé : 
+   Un repère orthogonal est orthonormé si les mesures de ses axes ont même valeur. Soit un repère $ (O;\vec{i};\vec{j};\vec{k})$, alors les vecteurs $\vec{i}$, $\vec{j}$ et $\vec{k}$ ont même norme : 
+   \begin{align}
+   &||\vec{i}|| = ||\vec{j}|| = ||\vec{k}|| 
+   \end{align}
+   <strong>Repères directs ou indirects :</strong><br/>
+   Ce critère des repères est visible en deux et trois dimensions. Ce critère correspond à la manière dont sont disposés les axes entre eux. Selon l'ordre dans lesquels on les place, le repère est alors soit direct soit indirect. Il n'y a pas de valeur intermédiaire.<br/>
+   <strong>En deux dimensions :</strong><br/>
+   Soit un repère direct du plan : 
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/regle-main-droite01.png?raw=true" width=75%>
+   On passe de l'axe des abscisses aux ordonnées dans le sens anti-horaire. Autrement dit l'inverse du sens des aiguilles d'une montre.<br/>
+   <strong>En trois dimensions :</strong><br/>
+   <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/regle-main-droite.jpg?raw=true" width=50%>
+   </p>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+      
+   <br>
+   <hr>
+   <a href="chapitre-8.1-element-de-geometrie-Distance-entre-deux-point.html">Page suivante &rarr;</a><br>
+   <a href="index.html">Index &uarr;</a><br>
+   
+   <script src="j/jquery.js"></script>
+   <script src="j/modernizr.js"></script>
+   <script src="j/dih5.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSGSHE1GR2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-DSGSHE1GR2');
+  </script>
+</body>
+</html>
