@@ -20,3 +20,7 @@ Ce cours est open source dnas le sens, ou tout le monde peut me déposer un tick
 ### Distance d'un point à une droite
 ### Distance d'un point à un plan
 A compléter (voir le site qui risque d'être plus à jour!).
+
+# Fichiers Python
+Il est possible de trouver quelques fichiers en python pour tester quelques éléments de ce cours. Ces scripts sont souvent trouvés sur le web et customisés pour le coup. 
+Premier fichier : qualification de triangles - **determiner-Triangle.py**
