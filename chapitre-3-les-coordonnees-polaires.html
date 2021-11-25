@@ -331,7 +331,8 @@ Le passage de coordonnées polaires à cartésienne est immédiat comme on peut 
       M = (1.4142; +225°)
       $$
    </p>
-   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --> <h5>Dernier exemple, quelles sont les coordonnées polaires du point $M$</h5>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --> 
+   <h5>Dernier exemple, quelles sont les coordonnées polaires du point $M$</h5>
    si ses coordonnées cartésiennes sont : 
    $$
    M = (3;-12)
@@ -346,7 +347,7 @@ Le passage de coordonnées polaires à cartésienne est immédiat comme on peut 
    $$
    \alpha  = \arctan(\dfrac{y_{M}}{x_{M}}) + 2\pi=  \arctan(\dfrac{-12}{3}) + 2\pi=  \arctan(-4) + 2\pi= 4,957
    $$
-   donc $ \alpha = 4,957$ rad. e qui fait un tout petit peu plus de $284°$. 
+   donc $ \alpha = 4,957$ rad. ce qui fait un tout petit peu plus de $284°$. 
       </p>
    
       <p>
@@ -369,29 +370,12 @@ Le passage de coordonnées polaires à cartésienne est immédiat comme on peut 
       <p>
          Pour ce faire, nous allons utiliser deux lois issues de la géométrie du triangle. elles peuvent être vues comme des généralisation du théorème de Pythagore : 
          <ul>
-            <li>La loi des $cosinus$ : pour calculer $\left\Vert w\right\Vert$ </li>
+            <li> <a href="chapitre-7.5-les-vecteurs-Relation-AL-Kashi-Mediane-formule-cosinus-et-sinus.html">La loi des $cosinus$</a> : pour calculer $\left\Vert w\right\Vert$ </li>
             
-   
-       <h4>Loi des $cosinus$</h4>
-       <p>
-          La loi des $cosinus$ est une généralisation du théorème de Pythagore. On obtient une relation entre les longueur à l'aide du $cosinus$ d'un angle. <br/>
-          Le principe est le suivant, appliqué au segment $[AB]$ : 
-          
-          $$
-          \left\Vert AB\right\Vert^{2} = \left\Vert AC\right\Vert^{2}+\left\Vert BC\right\Vert^{2}-2\left\Vert AC\right\Vert.\left\Vert BC\right\Vert.\cos \gamma. 
-          $$
-           <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/loi-des-cosinus.png?raw=true" width=50%>
-           Noter que cette formule peut être extrapolée à chaque coté, du moment que l'on dispose de l'angle opposé. <br/>
-           <strong>Exercices</strong> : Ecrire les deux autres formules pour les deux autres cotés. 
-       </p>
-            <li>La loi des $sinus$ : pour calculer $\alpha_{w}$ </li>
-            Dans ce même triangle, on a la relation, avec $A$, $B$ et $C$ distincts : 
-            
-          $$
-          \dfrac{\sin \alpha}{BC} = \dfrac{\sin \beta}{AC} = \dfrac{\sin \gamma}{AB} 
-          $$
-         </ul>
-      </p><strong>Calcul de $\left\Vert w\right\Vert$</strong>
+            <li><a href="chapitre-7.5-les-vecteurs-Relation-AL-Kashi-Mediane-formule-cosinus-et-sinus.html">La loi des $sinus$</a>: pour calculer $\alpha_{w}$ </li>
+         </ul>  
+         
+     </p><strong>Calcul de $\left\Vert w\right\Vert$</strong>
    </p>
    <p>
       D'après la loi des $cosinus$, en l'appliquant dans notre cas on a : 
@@ -401,10 +385,12 @@ Le passage de coordonnées polaires à cartésienne est immédiat comme on peut 
       On identifie facilement l'angle $\gamma$ de la loi des $cosinus$ avec l'angle $\pi -\alpha_{v}+\alpha_{u}$ et la longueur $AB$ avec la norme du vecteur $\left\Vert w\right\Vert$
       A l'aide d'une racine carré on obtient $\left\Vert w\right\Vert$. <br/>
       $\theta$ est l'angle obtenu en ajoutant l'angle du vecteur $\vec{u}$
+       
+    </p>
    </p><strong>Calcul de $\alpha_{w}$</strong>
       </p>
       <p>
-          <h4>Loi des $sinus$ pour le calcul de $\alpha_{w}$</h4>
+          <h4>Application de la loi des $sinus$ pour calculer $\alpha_{w}$</h4>
       </p>
       <p>
          Premièrement, dans notre schéma on a  $\alpha_{w} = \beta +  \alpha_{u}$. Donc il suffit de calculer $\beta$. Ce que l'on fait avec la loi des $sinus$. Maintenant on connait $\left\Vert w\right\Vert$ et $\gamma$. Donc pour trouver $\beta$, en appliqaunt cette loi des $sinus$ on trouve dnas notre cas : 
@@ -430,11 +416,11 @@ Le passage de coordonnées polaires à cartésienne est immédiat comme on peut 
       </p>
       <p>
       </p>
-      <p>
-         A venir : le repère associé aux coordonnées polaires.
-      </p>
    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+      <p>
+         A venir : le repère associé aux coordonnées polaires (liens avec la physique).
+      </p>
    <h2>Le repère des coordonnées polaires</h2>
    <h3>Approche</h3>
 
@@ -472,6 +458,7 @@ Le passage de coordonnées polaires à cartésienne est immédiat comme on peut 
    <script src="j/modernizr.js"></script>
    <script src="j/dih5.js"></script>
 
+  <!-- Quelques sources :  https://www.learnalberta.ca/content/sfp20/html/java/vector_addition_numerical/applethelp/lesson.pdf-->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSGSHE1GR2"></script>
   <script>
