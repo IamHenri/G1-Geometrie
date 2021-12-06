@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <title>Comprendre pourquoi R² représente le plan</title>
+   <link rel="stylesheet" href="https://calculusmadeeasy.org/screen.css">
+   <style>
+      body{counter-reset:h1 99}
+   </style>
+   <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+   </script>
+   <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+   <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+  
+   <p class="a rotatedFloralHeartBullet">
+
+   <p>
+   <h1>1 - $\mathbb{R}^{2}$ une explication simple </h1>
+   <h2>Présentation intuitive</h2>
+   <p>
+      Il existe plusieurs manière de caractériser le plan. On en voit une souvent, sous la forme " Soit le plan $\mathbb{R}^{2}$", "Dans $\mathbb{R}^{2}$ ", ... Cette signification peut paraître abstraite, alors qu'elle ne fait que représenter mathématiquement un espace de dimension deux que l'on peut assimiler au plan. 
+   </p>
+   <h2>$\mathbb{R}$</h2>
+   <p>
+      Tout d'abord considérons l'ensemble  des réèls $\mathbb{R}$. Cet ensemble de nombre est supposé continu. Autrement dit, il n'y a pas de trous. On peut donc représenter cet ensemble par une droite comme ceci :  
+   
+      <p>
+         <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/Divers_la-droite-r.png?raw=true" width=50%>
+         </p>
+         Où l'on peut placer tout nombre de cet espace: 
+         
+      <p>
+         <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/Divers_la-droite-r-exemples.png?raw=true" width=50%>
+         </p>
+         On représente ici approximativement $\pi$, $e$, $\sqrt{2}$ et $-2$, cités par ordre décroisssant. 
+   </p>
+   <p>
+      $\mathbb{R}$ peut donc être représenté par une droite sur laquelle on peut définir un repère. On définit le vecteur $\vec{i}$ de norme $1$, orienté vers les valeurs positives, dont la direction est cette droite des réèls. 
+   </p>
+   <p>
+      <h2>$\mathbb{R}^{2}$</h2>
+      $\mathbb{R}^{2}$, un des noms mathématiques du plan.
+
+      <h3>Présentation</h3>
+Le système de coordonnées cartésiennes permet de d'obtenir dans le plan un point unique à l'aide de deux informations. Le plan est un "espace" à deux dimensions, donc deux informations sont nécessaires et suffisantes pour identifier uniquement un point du plan. 
+
+<h3>Représentation</h3> 
+Cette figure : 
+
+<img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/vect-cart01.jpg?raw=true" width=50%>
+
+Dans cette figure, on observe 
+<ul>
+	<li>un repère, donné par les axes $(Ox)$ et $(Oy)$,</li> 
+	<li>le point $O$, l'origine du repère,</li> 
+	<li>le point $M$ du plan,</li> 
+	<li>$x_{M}$ l'abscisse du point $M$,</li> 
+	<li>$y_{M}$ son ordonnée,</li> 
+	<li>la représentation du vecteur $\overrightarrow{OM}$.</li> 
+</ul>
+On dispose donc des coordonnées du point $M$  : 
+$$
+M = (x_{M};y_{M})
+$$
+Permettant de construire immédiatement le vecteur $\overrightarrow{OM}$ : 
+
+$$
+\overrightarrow{OM}  =
+\begin{pmatrix}
+x_{M}\\
+y_{M}\\
+\end{pmatrix}
+$$
+   </p>
+   <p>
+      On note que $x_{M} \in \mathbb{R}$ et $y_{M} \in \mathbb{R}$. Ceci si on regarde individuellement chacune des coordonnées.  
+   </p>
+   <p>
+      En revanche si on regarde ces coordonnées comme un couple de valeurs alors, une notation pour écrire que ces deux valeurs sont réelles serait : 
+      $$
+(x_{M};y_{M}) \in \mathbb{R} \times \mathbb{R}
+      $$
+   </p>
+   <p>
+      Et $\mathbb{R} \times \mathbb{R} = \mathbb{R}^{2}$. 
+   </p>
+   <p>
+      D'où l'analogie entre $\mathbb{R}^{2}$ et le plan. Autrement dit $\mathbb{R}^{2}$ peut être tout le temps assimilé au plan. On verra peut être dans ce site qu'on peut identifier certaines surfaces avec ce même espace $\mathbb{R}^{2}$. Mais ceci relève d'un autre sujet. 
+   </p>   
+   <p>
+
+   <h2>$\mathbb{R}^{3}$</h2>
+   On remarquera que la même identification est réalisée entre l'espace à trois dimension tel qu'on le connait dans notre quotidien avec $\mathbb{R}^{3}$. Exactement selon le même principe. 
+   </p>
+   <p>
+
+   <h2>$\mathbb{R}^{n}$</h2>
+   Lorsque la puissance $n$ dans $\mathbb{R}^{n}$ est supérieure à trois alors ces espace deviennent purement abstrait. Les seules visualisation possibles sont par projections. Par exemple si vous travaillez dans un espace $\mathbb{R}^{4}$, vous pouvez fixer un des variables, pour observer ce qu'il se passe dans $\mathbb{R}^{3}$.  De la même manière qu'on projettrait des volumes de $\mathbb{R}^{3}$ dans $\mathbb{R}^{2}$ où dans ce cas, on ne fait que donner une image d'un volume sur un plan. Exemple : le regard humain. 
+   </p>
+<br>
+<hr>
+<a href="index.html">Retour à l'index &rarr;</a><br>
+<script src="jsfile/jquery.js"></script>
+<script src="jsfile/modernizr.js"></script>
+<script src="jsfile/dih5.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSGSHE1GR2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-DSGSHE1GR2');
+</script>
+</body>
+</html>
