@@ -14,10 +14,10 @@
 </head>
 <body>
   <p class="a rotatedFloralHeartBullet">
-    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% whiteRightPointingIndex -->
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
   </p>
   <p>
-    <h1>Index du document</h1>
+    <h1>Le déterminant</h1>
     <ul>
       <li><a href="#contexte">Contexte</a></li>
       <li><a href="#lfddeterminant">La formule du déterminant</a></li>
@@ -64,9 +64,13 @@
 	  Alors, le déterminant des deux vecteurs $ \vec{u} $ et $  \vec{v} $ est donné par la formule suivante : 
 	  $$
       \begin{align}
-      det(\vec{u},\vec{v}) =u_{x} .  v_{y} - u_{y} .  v_{x} 
+      \det(\vec{u},\vec{v}) =u_{x} .  v_{y} - u_{y} .  v_{x}
       \end{align}
       $$
+	  On note : 
+	  $$
+	  \det(\vec{u},\vec{v}) = \begin{vmatrix} u_{x} & u_{y} \\ v_{x} & v_{y} \end{vmatrix}
+	  $$
 	  Le résultat du déterminant de deux vecteurs est un nombre réel. Qui peut être positif, négatif ou nul. 
 	  </p>
 
@@ -93,11 +97,11 @@
 
 	  <p> 
    
-   Pour finir, la méthode de calcul du déterminant d'une matrice carrée de dimension $2 \times 2$ : 
+   Pour finir, la méthode de calcul du déterminant d'une matrice carrée de dimension $2 \times 2$: 
    <ul>
       <li>On calcule le produit $a$ par $d$;</li>
       <li>On calcule le produit $b$ par $c$;</li>
-      <li>On le deuxième du premier.</li>
+      <li>On retranche le deuxième du premier.</li>
    </ul>
    
    <img src="https://github.com/IamHenri/G1-Geometrie/blob/main/images/Determinant-formule-construction.png?raw=true" width=40%>
@@ -221,8 +225,8 @@
 	  </p>
 		  <p>
 
-      <h2 id="produitvectoriel">Application : le produit vectoriel - <a href="#">up</a></h2>
-	  On calcul le produit vectoriel des vecteurs de l'espace. Si on ne dispose que de vecteurs dans le plan, on rajoute une troisième coordonnée valant 0 pour avoir des vecteur à trois dimensions. On peut alors aussi en calculer le produit vectoriel. 
+      <h2 id="produitvectoriel">Le produit vectoriel - <a href="#">up</a></h2>
+	  On calcul le produit vectoriel des vecteurs de l'espace. Si on ne dispose que de vecteurs dans le plan, on rajoute une troisième coordonnée valant 0 pour avoir des vecteur à trois dimensions. On peut alors aussi en calculer le produit vectoriel. Cette opération est une combinaison des coordonnées des deux vecteurs pour en construire un troisième, les trois formant un trièdre direct. 
 	  
 	  </p>
 		
@@ -244,6 +248,14 @@
       \end{align}
       $$
 	  Alors le résultat du produit vectoriel de ces deux vecteurs est un vecteur ayant la particularité d'être <span title="Perpendiculaire">orthogonal</span> aux deux vecteurs $\vec{u}$ et $\vec{v}$. 
+	  $$
+	  \vec{u} \wedge \vec{v} = \begin{vmatrix} u_{y} & v_{y}  \\ u_{z}& v_{z} \end{vmatrix} . \vec{i} +\begin{vmatrix} u_{z} & v_{x}\\ u_{x}  & v_{y} \end{vmatrix} . \vec{j} +\begin{vmatrix} u_{x} &  v_{x} \\ u_{y}& v_{y} \end{vmatrix} . \vec{k}  
+	  $$
+	  On a :  
+	  $$
+	  \vec{u} \wedge \vec{v} =  ( u_{y} v_{z} - u_{z} v_{y}) . \vec{i} +( u_{z}  v_{y}  - u_{x} v_{x} ) . \vec{j} +( u_{x}   v_{y} - u_{y} v_{x} ) . \vec{k}  
+	  $$
+	   Si on pose $\vec{w} = \vec{u} \wedge \vec{v}$ alors le trièdre $(\vec{u} ; \vec{v} ; \vec{w})$ est direct. Si $\vec{u}$ et $\vec{v}$ sont de plus orthogonaux, tous les axes du trièdre sont orthogonaux entre eux. 
 	  </p>
 		
 	  <p>
@@ -272,8 +284,8 @@
 	  
 	  <p>
 	  
-	  <h2 id="applicationsysteme">Resolution des systeme lineaires - <a href="#">up</a></h2>
-	  La résolution des systèmes de n équations à $n$ inconnues est rendue simple et automatisable (ce n'est pas la seule) à l'aide d'une méthode appelée la méthode de Cramer. Pour commencer, on va prendre un système linéaire de deux équations à deux inconnues. Et le résoudre à l'aide de cette méthode. 
+	  <h2 id="applicationsysteme">Resolution des systemes lineaires - <a href="#">up</a></h2>
+	  La résolution des systèmes de $n$ équations à $n$ inconnues est rendue simple et automatisable (ce n'est pas la seule méthode) à l'aide d'une méthode appelée la méthode de Cramer. Pour commencer, on va prendre un système linéaire de deux équations à deux inconnues. Et le résoudre à l'aide de cette méthode. 
 	  <p>
 	  Soit le système $\mathcal{S}$ : 
 	  $$
@@ -351,9 +363,10 @@
 		On obtient les solutions du système $\mathcal{S}$ : 
 			  $$	  
       \begin{align}
-		x = \dfrac{\delta_x}{\Delta} \\
-		y = \dfrac{\delta_y}{\Delta}\\
+		x = \dfrac{\Delta_x}{\Delta} \\
+		y = \dfrac{\Delta_y}{\Delta}\\
       \end{align}
+	  $$
 	D'où l'importance que le déterminant de la matrice du système $M$ soit non nul. 
 	  </p>
 	  <p>
