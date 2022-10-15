@@ -258,7 +258,118 @@
 	   Si on pose $\vec{w} = \vec{u} \wedge \vec{v}$ alors le trièdre $(\vec{u} ; \vec{v} ; \vec{w})$ est direct. Si $\vec{u}$ et $\vec{v}$ sont de plus orthogonaux, tous les axes du trièdre sont orthogonaux entre eux. 
 	  </p>
 		
+	  <p>Il existe plusieurs moyen mnémotechniques pour se rappeler cette formule. Une première méthode est de prendre les deux vecteurs  $\vec{u}$ et $\vec{v}$, de "copier/coller" les deux premières coordonnées pour les rajouter à la fin, comme ceci:
+	     $$
+      \begin{align}
+      \vec{u} =
+      \left( \begin{array}{ccc}
+      u_{x} \\
+      u_{y} \\
+      u_{z} \\
+      \end{array} \right) ; \text{ et } 	
+	  \vec{v} =
+      \left( \begin{array}{ccc}
+      v_{x} \\
+      v_{y} \\
+      v_{z} \\
+      \end{array} \right)  \text{ donnent respectivement :  } 
+	  
+      \vec{u} =
+      \left( \begin{array}{ccc}
+      u_{x} \\
+      u_{y} \\
+      u_{z} \\
+      u_{x} \\
+      u_{y} \\
+      \end{array} \right) ; \text{ et } 	
+	  \vec{v} =
+      \left( \begin{array}{ccc}
+      v_{x} \\
+      v_{y} \\
+      v_{z} \\
+      v_{x} \\
+      v_{y} \\
+      \end{array} \right) 
+      \end{align}
+      $$
+	  Pour obtenir la première composante (coordonnée) de $\vec{w}$, on calcul le déterminant des deux suivantes : 
+	  $$
+	  \begin{vmatrix} u_{y} & v_{y}  \\ u_{z}& v_{z} \end{vmatrix}
+	  $$
+	  Pour la deuxième composante, en $\vec{j}$, on calcul le déterminant suivant : 
+	  
+	  $$
+	  \begin{vmatrix} u_{z} & v_{x}\\ u_{x}  & v_{y} \end{vmatrix}
+	  $$
+	  Et pour la dernière, $\vec{z}$, on a : 
+	  $$
+	  \begin{vmatrix} u_{x} &  v_{x} \\ u_{y}& v_{y} \end{vmatrix}
+	  $$
+	  
+	  
+	  On obtient alors, la première composante et  donnée par le déterminant des deux suivantes, etc  : 
+	  $$
+      \begin{align}
+      \begin{array}{ccc}
+        & u_{x}&  & v_{x} &\begin{vmatrix} u_{y} & v_{y}  \\ u_{z}& v_{z} \end{vmatrix}\\
+       & u_{y}&  & v_{y} & \begin{vmatrix} u_{z} & v_{x}\\ u_{x}  & v_{y} \end{vmatrix} \\
+       & u_{z}&  & v_{z} & \begin{vmatrix} u_{x} &  v_{x} \\ u_{y}& v_{y} \end{vmatrix}\\
+       & u_{x}&  & v_{x} & \\
+       & u_{y}&  & v_{y} & \\
+      \end{array}
+      \end{align}
+      $$
+	  
+	  Avec des couleurs pour ceux que ça peut aider: 
+	  $$
+      \begin{align}
+      \begin{array}{ccc}
+        & u_{x}				&  & v_{x} 				& & 			\color{red}{\begin{vmatrix} u_{y} & v_{y}  \\ u_{z}& v_{z} \end{vmatrix}}\\
+       & \color{red}{u_{y}}&  & \color{red}{v_{y}} 	& \rightarrow & \begin{vmatrix} u_{z} & v_{x}\\ u_{x}  & v_{y} \end{vmatrix} \\
+       & \color{red}{u_{z}}&  & \color{red}{v_{z}} 	& \rightarrow & 			\begin{vmatrix} u_{x} &  v_{x} \\ u_{y}& v_{y} \end{vmatrix}\\
+       & u_{x}				&  & v_{x} 				& & 			\\
+       & u_{y}				&  & v_{y} 				& & 			\\
+      \end{array}
+	  ;
+      \begin{array}{ccc}
+        & u_{x}					&  & v_{x} 					& & 			 				\begin{vmatrix} u_{y} & v_{y}  \\ u_{z}& v_{z} \end{vmatrix}\\
+       & u_{y}					&  & v_{y} 					& &  \color{olive}{\begin{vmatrix} u_{z} & v_{x}\\ u_{x}  & v_{y} \end{vmatrix}} \\
+       & \color{olive}{u_{z}}	&  & \color{olive}{v_{z}} 	& \rightarrow & 			 \begin{vmatrix} u_{x} &  v_{x} \\ u_{y}& v_{y} \end{vmatrix}\\
+       & \color{olive}{u_{x}}	&  & \color{olive}{v_{x}} 	& \rightarrow & 			 \\
+       & u_{y}					&  & v_{y} 					& & 			 \\
+      \end{array}
+	  ;
+	  \begin{array}{ccc}
+        & u_{x}					&  & v_{x} 						& & 			 				\begin{vmatrix} u_{y} & v_{y}  	\\ u_{z}	& v_{z} 	\end{vmatrix}\\
+       & u_{y}					&  & v_{y} 						& &  				\begin{vmatrix} u_{z} & v_{x}	\\ u_{x}  	& v_{y} 	\end{vmatrix} \\
+       & u_{z} 					&  & v_{z}    					& & 			 \color{blue}{\begin{vmatrix} u_{z} & v_{x}\\ u_{x}  & v_{y} \end{vmatrix}}\\
+       & \color{blue}{u_{x}}	&  & \color{blue}{v_{x}} 		& \rightarrow& 			 \\
+       & \color{blue}{u_{y}}		&  & \color{blue}{v_{y}} 	& \rightarrow & 			 \\
+      \end{array}
+      \end{align}
+      $$
+	  
+<!-- 	  
+	  
+	 $$
+      \begin{align}
+      \begin{array}{ccc}
+        & u_{x}&  & v_{x} & \color{orange}{\begin{vmatrix} u_{y} & v_{y}  \\ u_{z}& v_{z} \end{vmatrix}}\\
+       & \color{orange}{u_{y}}&  & \color{orange}{v_{y}} & \begin{vmatrix} u_{z} & v_{x}\\ u_{x}  & v_{y} \end{vmatrix} \\
+       & \color{orange}{u_{z}}&  & \color{orange}{v_{z}} & \begin{vmatrix} u_{x} &  v_{x} \\ u_{y}& v_{y} \end{vmatrix}\\
+       & u_{x}&  & v_{x} & \\
+       & u_{y}&  & v_{y} & \\
+      \end{array} ; 
+      \end{align}
+      $$
+	  
+	   -->
+	  
+	  
+	  </p>
+		
 	  <p>
+
 	  
 <!-- 	  
 	  </p>
@@ -283,6 +394,7 @@
 	  </p> -->
 	  
 	  <p>
+	  
 	  
 	  <h2 id="applicationsysteme">Resolution des systemes lineaires - <a href="#">up</a></h2>
 	  La résolution des systèmes de $n$ équations à $n$ inconnues est rendue simple et automatisable (ce n'est pas la seule méthode) à l'aide d'une méthode appelée la méthode de Cramer. Pour commencer, on va prendre un système linéaire de deux équations à deux inconnues. Et le résoudre à l'aide de cette méthode. 
