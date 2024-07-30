@@ -1,4 +1,4 @@
-<?php require "entete.html"; ?>
+<?php include "entete.html"; ?>
   <p class="a rotatedFloralHeartBullet">
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
   </p>
