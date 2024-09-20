@@ -6,14 +6,10 @@
 </p>
 <p>
 <h2>Raison d'être du site</h2>
-<p>Ces notes de cours présentent quelques bases et d'autres plus avancés en lien avec mes cours. Pour les premiers, c'est pour permettre de reprendre les quelques notions qui peuvent être un peu floue, de manière à les clarifier et qu'ils fassent partie de votre vocabulaire de base en mathématiques. </p>
+<p>Ces notes de cours présentent quelques bases et d'autres plus avancés en lien avec mes cours. Pour les premiers, c'est pour permettre de reprendre les quelques notions qui peuvent être un peu floues, de manière à les clarifier et qu'ils fassent partie de votre vocabulaire de base en mathématiques. Pour les plus avancés, ces notes viennent en complément de la référence su exo7. </p>
 <p>Toutes les ressources disponibles sur ce site sont disponibles dans cette page. Au risque d'être chargée, vous aurez une vision claire du contenu de ce site. 
-
  </p>
-<p>Je mélange ici LaTeX, langage dédié à l'écriture des mathématiques, le HTML que l'on ne présente plus et des dessins à la main pour permettre de présenter au mieux ces contenus abstraits et leur donner un maximum de corps. </p>
 <p>Je présente et renvoie à ce contenu lors de sessions de formations pour s'approprier ces notions sous un angle à la fois académique mais avant didactique. J'espère de par mes formulations et explication littéraires fournir quelques clarifications à mes élèves et toute personne qui tomberait sur ces pages. </p>
-<p> Devant apprendre beaucoup en peu de temps, je n'ai pas d'autres choix que de renvoyer mes élèves vers ces contenus qui je l'espère leur permettront de s'approprier les notions qui peuvent manquer. </p>
-<p>
 </p>
 <p> Ces notes sont sur GitHub pour permettre un meilleur partage avec tous mes élèves et une mise à jour plus simple que de générer de multiples PDF, les versionner, les envoyer... Cette manière de diffuser mes notes me permet la plus grande souplesse. </p>
 <h3>Pourquoi étudier les mathématiques</h3>
@@ -22,12 +18,9 @@
 <p> Plus sérieusement, potentiellement toute activité peut être approchée, représentée, améliorée grâce aux maths. </p>
 <p>
 </p>
-<p> Ce site utilise quelques éléments de <a href="https://github.com/nadvornix/calculus-made-easy" target="_blank"></a>ces sources</a> pour la mise en forme. Elle sont à la base utilisées pour diffuser un excellent livre de mathématiques sur le calcul différentiel. Etant donné que ces pages sont pour l'instant publiées sur GitHub, il y a une certaine redondance. </p>
+<p> Ce site utilise quelques éléments de <a href="https://github.com/nadvornix/calculus-made-easy" target="_blank"></a>ces sources</a> pour la mise en forme.  </p>
 <p> Les sources de ces pages sont sur GitHub (<a href="https://github.com/IamHenri/G1-Geometrie" target="_blank">https://github.com/IamHenri/G1-Geometrie</a>). Ca me permet de prendre en compte les remarques qui seront faites qui permettraient une meilleure compréhension des notions présentées ici plus facilement. </p>
 <p> La plupart des dessins sont fait à la main sur une tablette dédiée. L'idée est de pousser les lectrices et lecteurs à les reproduire. </p>
-<p>
-    Les sources de ces pages mathématiques sont disponibles sur GitHub.
-</p>
 <p>Quelques liens vers des ressources connexes : </p>
 <p><a href="https://www.arte.tv/fr/videos/RC-021426/voyages-au-pays-des-maths/" target="_blank">Sur Arte</a>
 </p>
@@ -38,7 +31,7 @@
 </p>
 <p>
 <h2>Contenu du site en détail</h2> 
-Ce site uniquement dédié à mes cours de maths vous donne accès à l'ensemble des notes que j'ai pu écrire sous Latex et incorporées dans du HTML. Cette page recense l'ensemble des pages et contenus que j'ai publié. Cette publication de mes ours sur GitHub permettra un meilleur partage avec tous mes élèves et une mise à jour plus simple que de générer de multiples PDF, les versionner, les envoyer... Cette manière de diffuser mes notes me permet la plus grande souplesse. </p>
+Ce site uniquement dédié à mes cours de maths vous donne accès à l'ensemble des notes que j'ai pu écrire sous Latex et incorporées dans du HTML. Cette page recense l'ensemble des pages et contenus que j'ai publié. Cette publication de mes cours sur GitHub permettra un meilleur partage avec tous mes élèves et une mise à jour plus simple que de générer de multiples PDF, les versionner, les envoyer... Cette manière de diffuser mes notes me permet la plus grande souplesse. </p>
 <h3>Sujets introductifs : les bases</h3>
 <ul>
     <li><a href="chapitre-1-contexte-mathematiques-repere.php">Contexte mathématiques</a></li>
