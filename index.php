@@ -31,7 +31,6 @@
 </p>
 <p>
 <h2>Contenu du site en détail</h2> 
-Ce site uniquement dédié à mes cours de maths vous donne accès à l'ensemble des notes que j'ai pu écrire sous Latex et incorporées dans du HTML. Cette page recense l'ensemble des pages et contenus que j'ai publié. Cette publication de mes cours sur GitHub permettra un meilleur partage avec tous mes élèves et une mise à jour plus simple que de générer de multiples PDF, les versionner, les envoyer... Cette manière de diffuser mes notes me permet la plus grande souplesse. </p>
 <h3>Sujets introductifs : les bases</h3>
 <ul>
     <li><a href="chapitre-1-contexte-mathematiques-repere.php">Contexte mathématiques</a></li>
@@ -96,6 +95,13 @@ Ce site uniquement dédié à mes cours de maths vous donne accès à l'ensemble
     <li><a href="analyse-vectorielle/analyse-vectorielle-chap06.php">TL;DR</a></li>
 </ul>
 </p>
+<!--
+<p>
+<h3>L'algèbre linéaire - TBD</h3>
+<ul>
+    <li><a href="algebre-lineaire-01.php">premier chapitre</a></li>
+</ul>
+</p> -->
 <p>
 <h3>Trucs et astuces de calcul</h3>
 <ul>
