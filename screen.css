@@ -1,18 +1,13 @@
 /*
-
 "Dive Into HTML 5" stylesheet
-
 Copyright (c) 2009, Mark Pilgrim, All rights reserved.
-
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
-
 * Redistributions of source code must retain the above copyright notice,
   this list of conditions and the following disclaimer.
 * Redistributions in binary form must reproduce the above copyright notice,
   this list of conditions and the following disclaimer in the documentation
   and/or other materials provided with the distribution.
-
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS'
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
@@ -24,17 +19,13 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
-
-
 Classname Legend
-
 .f = "fancy"      = first paragraph of each chapter (gets a fancy drop-cap)
 .c = "centered"   = centered footer text (also clears floats)
 .a = "asterism"   = section break
 .v = "navigation" = prev/next navigation links (not breadcrumbs)
 .u = "Unicode"    = text contains Unicode characters (requires special font declaration to accommodate *cough* a certain browser)
 .p = "prompt"     = command-line or interactive shell prompt within code listings
-
 .dc = "drop cap"       = image simulating first-letter initial
 .pp = "pretty print"   = apply syntax highlighting to this code block
 .pf = "padded frame"   = black border with internal padding
@@ -43,23 +34,17 @@ Classname Legend
 .bc = "browser compat" = browser compatibility table (td cells all contain checks, Xs, and asterisks)
 .st = "simple table"   = table with 1px border in body font
 .ho = "headers only"   = on a table row, denotes that this row contains only table headers
-
 .note = "note/caution/important"   = indented block for tips/gotchas/language comparisons
 .baa  = "best available ampersand" = wrapper block for ampersands
-
 .zebra = "zebra stripes" = off-white background color (used for "zebra stripe" tables)
-
 How the fonts are compressed
-
 Fonts are processed through http://www.fontsquirrel.com/fontface/generator to generate new TrueType, WOFF, and EOT Compressed versions.
 Vertical Metrics are fixed, as is the GASP table, and kerning is removed. No X-height Matching is applied.
 Essays 1742 has an em square value of 1024 and is stripped down to Lowercase, Uppercase, Numbers, and the following unicodes:
 0021-002F,003A-003F,0040,005B-005F,007B-007D,2018-2019,201B-201D,201F,2022-2023,2026,2116,219C-219D,21B6-21B7,21DC-21DD,2212,261E,2767.
 Linux Libertine has an em square value of 2048 and is stripped down to Lowercase, Uppercase, Numbers, and the following unicodes:
 0021-002F,003A-003F,0040,005B-005F,007B-007D,2018-2019,201B-201D,201F,2022-2023,2026,2116,219C-219D,21B6-21B7,21DC-21DD,2212,261E,2767.
-
 Acknowledgements & Inspirations
-
 "The Elements of Typographic Style Applied to the Web" ... http://webtypography.net/toc/
 "Use the Best Available Ampersand" ....................... http://simplebits.com/notebook/2008/08/14/ampersands.html
 "Unicode Support in HTML, Fonts, and Web Browsers" ....... http://alanwood.net/unicode/
@@ -419,3 +404,23 @@ tfoot {
 
 .anticlockwiseTopSemicircleArrow:after { content: "\21B6" }
 .clockwiseTopSemicircleArrow:after { content: "\21B7" }
+
+/* personal addition */
+.definitionBox {
+  background-color: rgb(225, 225, 225);
+  padding: 12px;
+  border: 2px solid rgb(12, 12, 12);
+  margin-top: 10px;
+  margin-bottom: 10px
+  width: 100%;
+  height: 100%;
+}
+.theoremBox {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border: 5px double rgb(50, 50, 50);
+  margin-top: 10px;
+  margin-bottom: 10px
+  width: 100%;
+  height: 100%;
+}

@@ -41,7 +41,7 @@
     <li><a href="chapitre-6-les-coordonnees-spheriques.php">Les coordonnées sphériques</a></li>
 </ul>
 <h3><a href="chapitre-7.0-les-vecteurs.php">Les vecteurs  </a></h3>
-<ul>
+<ul> 
     <li><a href="chapitre-7.1-les-vecteurs-presentation-intuitive-premieres-definitions.php">Premières définitions</a></li>
     <li><a href="chapitre-7.2-les-vecteurs-coordonnees-cartesiennes-et-polaires-des-vecteurs.php">Les coordonnées</a></li>
     <li><a href="chapitre-7.3-les-vecteurs-operation-sur-les-vecteurs.php">Opérations sur les vecteurs </a></li>
@@ -69,7 +69,7 @@
     <li><a href="cours-unitaire-le-determinant-outil-fondamental-des-mathematiques.php">Le déterminant</a></li>
     <li><a href="cours-unitaire-les-quaternions-theorie-et-application.php">Les Quaternions</a></li>
     <li><a href="cours-unitaire-2D-3D-plan-droite-du-plan-et-de-l-espace.php">Droites et plans de l'espace version géométrie analytique ;</a></li>
-    <li><a href="le-plan-r2-l-espace-r3.php">Pourquoi on $\mathbb{R}^{2}$ pour le plan et $\mathbb{R}^{3}$ l'espace?</a></li>
+    <li><a href="le-plan-r2-l-espace-r3.php">Pourquoi dit-on $\mathbb{R}^{2}$ pour le plan et $\mathbb{R}^{3}$ l'espace?</a></li>
 </ul>
 </p>
 <p>

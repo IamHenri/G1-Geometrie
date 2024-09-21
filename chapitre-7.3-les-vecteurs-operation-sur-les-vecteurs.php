@@ -169,7 +169,7 @@ D'un point de vue général, les résultats obtenus ici se résument en listant 
    
 <hr/>
 
-<h3>Remarque : comment ajouter des vecteurs dimension différente</h3>
+<h4>Remarque : comment ajouter des vecteurs de dimensions différentes</h4>
 <p>
    A priori c'est impossible. Mais grâce à une petite astuce, parfaitement justifiée. Soient deux vecteurs, $\vec{u}$ et $\vec{v}$, où $\vec{u}$ est un vecteur du plan, avec deux coordonnées: $(x_{u};y_{u})$ et $\vec{v}$ est un vecteur de l'espace où  $\vec{v} = (x_{v};y_{v};z_{v})$. Alors il suffit d'ajouter une troisième coordonnée à $\vec{u}$ qui sera nulle, on aura donc $\vec{u} = (x_{u};y_{u};z_{u})$ avec $z_{u} = 0$. Et le tour est joué. 
 </p>
