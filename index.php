@@ -18,13 +18,17 @@
 <p> Plus sérieusement, potentiellement toute activité peut être approchée, représentée, améliorée grâce aux maths. </p>
 <p>
 </p>
-<p> Ce site utilise quelques éléments de <a href="https://github.com/nadvornix/calculus-made-easy" target="_blank"></a>ces sources</a> pour la mise en forme.  </p>
+<p> Ce site utilise quelques éléments de <a href="https://github.com/nadvornix/calculus-made-easy" target="_blank">ces sources</a> pour la mise en forme.  </p>
 <p> Les sources de ces pages sont sur GitHub (<a href="https://github.com/IamHenri/G1-Geometrie" target="_blank">https://github.com/IamHenri/G1-Geometrie</a>). Ca me permet de prendre en compte les remarques qui seront faites qui permettraient une meilleure compréhension des notions présentées ici plus facilement. </p>
 <p> La plupart des dessins sont fait à la main sur une tablette dédiée. L'idée est de pousser les lectrices et lecteurs à les reproduire. </p>
 <p>Quelques liens vers des ressources connexes : </p>
 <p><a href="https://www.arte.tv/fr/videos/RC-021426/voyages-au-pays-des-maths/" target="_blank">Sur Arte</a>
 </p>
 <p> 
+</p>
+<p> Une référence en mathématiques pour les jeux vidéos : <a href="https://exo7math.github.io/mathgame-exo7/" target="_blank">Sur le site Exo7</a>
+
+
     <hr>
 <p class="a rotatedFloralHeartBullet">
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
@@ -78,10 +82,10 @@
     <li> <a href="chapitre-8.1-element-de-geometrie-Distance-entre-deux-point.php">Distance entre deux points</a>;</li>
     <li> <a href="chapitre-8.2-element-de-geometrie-Distance-point-droite.php">Distance entre un point et une droite</a>;</li>
     <li> <a href="chapitre-8.3-element-de-geometrie-projete-orthogonal-vecteur-sur-vecteur.php">Projeté d'un vecteur sur un vecteur</a>;</li>
-    <li> <a href="chapitre-8.4-element-de-geometrie-coordonnees-projete-orthogonal-droite.php">Coordonnées du projeté orthogonal</a>;</li>
+    <li> <a href="chapitre-8.4-element-de-geometrie-coordonnees-projete-orthogonal-droite.php">Coordonnées du projeté orthogonal</a>;</li><!--
     <li> <a href="chapitre-8.5-element-de-geometrie-distance-point-plan.php">Distance d'un point à un plan</a>;</li>
     <li> <a href="chapitre-8.6-element-de-geometrie-projection-orthogonale-sur-un-plan.php">Projection orthogonale sur un plan</a>;</li>
-    <li> <a href="chapitre-8.7-element-de-geometrie-definir-droites-vecteurs-segments.php">Définir vecteurs, droites, segments</a>;</li>
+    <li> <a href="chapitre-8.7-element-de-geometrie-definir-droites-vecteurs-segments.php">Définir vecteurs, droites, segments</a>;</li> -->
 </ul>
 </p>
 <p>
@@ -99,7 +103,7 @@
 <p>
 <h3>L'algèbre linéaire - TBD</h3>
 <ul>
-    <li><a href="algebre-lineaire-01.php">premier chapitre</a></li>
+    <li><a href="cours-algebre-lineaire-01.php">premier chapitre</a></li>
 </ul>
 </p> -->
 <p>

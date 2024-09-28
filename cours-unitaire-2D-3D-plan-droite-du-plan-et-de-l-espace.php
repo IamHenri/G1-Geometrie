@@ -343,12 +343,9 @@ On voit que comprendre les droites dans le plan n'a rien à voir avec celles dan
 
 	  <p>
 	  <h3 class="liensversexos">Liens vers des exercices</h3>
-	  <a href="http://exo7.emath.fr/ficpdf/fic00111.pdf" target ="_blank">Des exercices de géométrie analytiques sur une page du site Exo7 (source prodigieuse d'exercices).</a>
+	  <a href="http://exo7.emath.fr/ficpdf/fic00159.pdf" target ="_blank">Des exercices corrigés sur les droites du plan, les droites et le plans de l'espace.</a>
 	  </p>
 
-	  <p>
-	  <h3 class="dgdfgdfgdfgd"></h3>
-	  </p>
 
   <br>
   <hr>

@@ -23,7 +23,7 @@
       <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
       <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
    <h2>Contexte Informatique</h2>
-   Dans le jeu vidéo par exemple, la notion de barycentre est utilisée pour donner du réalisme aux mouvements des objets dans les univers qu'ils créent.
+   Dans le jeu vidéo par exemple, la notion de barycentre est utilisée pour donner du réalisme aux mouvements des objets dans leur environnement.
    </p>
    <p>
       Que ce soit un personnage, on monstre ou un vaisseau spatial, la manière de bouger, tourner, aura plus ou moins de réalisme si les mouvements sont centrés sur le centre de gravité. Un personnage qui aurait pour point d'équilibre ses pieds rendraient beaucoup de déplacements peu réaliste. Sauf dans le cas par exemple du film Matrix, quand Néo évite les balles par des contorsions impossibles, rendues possibles mathématiquement, en affectant un pondération faible ou nulle au haut du corps. Cette interprétation ne reflète certainement pas la réalité de ce qui a été fait, c'est uniquement pour illustrer l'idée. 

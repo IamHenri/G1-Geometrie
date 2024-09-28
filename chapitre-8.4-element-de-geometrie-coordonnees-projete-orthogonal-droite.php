@@ -112,7 +112,10 @@
    <br>
    <hr>
    
-   <a href="chapitre-8.5-element-de-geometrie-distance-point-plan.php">Page suivante &rarr;</a>
+   <a href="chapitre-9-les-barycentres-et-polynomes-de-bernstein-chapitre1.php">Page suivante &rarr;</a>
+   <p>
+   
+   
    <a href="index.php">Index &uarr;</a><br>
    
 <?php  include 'pieddepage.php';?>

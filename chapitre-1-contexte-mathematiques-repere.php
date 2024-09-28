@@ -21,7 +21,7 @@
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <p>
    
-   La géométrie euclidienne est la plus intuitive et correspond à la réalité dans laquelle nous vivons. Tant qu'on est pas astrophysicienne par exemple.
+   La géométrie euclidienne est intuitive et correspond dans une certaine mesure à la réalité dans laquelle nous vivons. Tant qu'on ne parle ni d'astrophysique ou encore de perspective, par exemple!
 </p>
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 <p>
