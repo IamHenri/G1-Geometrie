@@ -1,2 +1,2 @@
 # Bienvenue sur ces page mathématiques
-Ces sources sont obsolètes, voir maintenant  : [[https://github.com/IamHenri/notes-maths-tex](https://github.com/IamHenri/notes-maths-tex)](https://github.com/IamHenri/notes-maths-tex)
+Ces sources sont obsolètes, voir maintenant  : [[https://iamhenri.github.io/notes-maths-tex/](https://iamhenri.github.io/notes-maths-tex/)](https://iamhenri.github.io/notes-maths-tex/)
